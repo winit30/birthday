@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:400,700);
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+html {
+	height:100%;
+}
+body {
+	line-height: 1;
+	height:100%;
+	background-image:url('../images/bg.jpg');
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:center;
+	font-family: 'Dancing Script', cursive;
+	font-size:26px;
+}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+box-sizing:border-box;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+}
+
+img {max-width:100%;}
+.wrapper {max-width:1170px;width:100%;margin:0 auto;padding:0 20px;position:relative;z-index:9;}
+.login_cont {max-width:350px;margin:0 auto;margin-top: 100px;margin-bottom:50px;background-color: rgba(0, 0 ,0, 0.6);padding: 30px;line-height:32px;}
+.login_cont input {width: 100%;padding: 8px 12px;border-left: 1px solid #000;border-bottom: 1px solid #000;border-top: 0px;border-right: 0px;background: #fff;font-family: 'Dancing Script', cursive;font-size:24px;}
+.login_cont input:focus {outline:none;}
+.audio_cont {visibility:hidden;}
+.message_cont  {max-width:700px;background-color:rgba(255,255,255,0.65);padding:15px;margin:0 auto;display:none;margin-top:60px;overflow:hidden;line-height:38px;}
+.surprise_btn {display:none;float: right;text-decoration: none;background-image: url(../images/heart.png);width: 175px;height: 154px;background-size: 100%;background-repeat: no-repeat;color: #fff;font-size: 22px;text-align: center;line-height: 130px;margin-top:15px;}
+.login_cont .input_field {margin-bottom:30px;}
+.login_btn {width: 100%;padding:7px 12px;border: 0px;background:red;color:#fff;text-decoration:none;text-align:center;display:block;}
+p {color:#fff;font-size:24px;}
+.cover {position:absolute;width:100%;height:100%;background-color:#000;top:0;left:0;display:none;}
+
+.video_cont {display:none;margin-top:80px}
+
+.quote_cont {color:#fff;text-align:center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
